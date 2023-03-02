@@ -61,7 +61,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'hmclearningapp'
+          app-name: 'hamadfix'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E07A7AE63A1546EDBDE30309F1BAF5D5 }}
           package: .
